@@ -1,0 +1,218 @@
+
+body{
+    overflow-x: hidden;
+}
+
+
+.form-body{
+    height: 100%;
+    /* border: 1px solid black; */
+    /* padding-bottom: 50px; */
+}
+
+.form-holder {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      max-height: 100%;
+}
+
+
+.form-holder .form-content {
+    /* position: relative; */
+    text-align: center;
+    display: -webkit-box;
+    /* overflow: hidden; */
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-align-items: center;
+    align-items: center;
+    padding: 60px;
+  
+    padding-top: 5px;
+}
+
+
+.form-content .form-items {
+    border: 2px solid #1D1A11;
+    /* width: 100%; */
+    padding: 10px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: inline-block;
+    overflow: hidden;
+    /* width: 100%; */
+    /* min-width: 400px;  */
+    margin-top: 5px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    text-align: left;
+    -webkit-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+    background-color: #F0F0F0;
+}
+
+
+ .form-content h3 {
+    color: #d5b377;
+    text-align: left;
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.form-content h3.form-title {
+    margin-bottom: 30px;
+} 
+
+ .form-content p {
+    color: #fff;
+    text-align: left;
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 20px;
+    margin-bottom: 30px;
+
+
+
+} 
+
+
+.form-control{
+    padding-left: 5px;
+}
+.form-content label, .was-validated .form-check-input:invalid~.form-check-label, .was-validated .form-check-input:valid~.form-check-label{
+    color: #5A5A5A;
+    font-size: 15px;
+}
+#floatingInput{
+    padding-left: 20px;
+}
+
+.form-content input[type=text], .form-content input[type=tel], .form-content input[type=file], .form-content input[type=password], .form-content input[type=email], .form-content select {
+    width: 100%;
+    /* height: 40px; */
+    /* padding-left: 10px; */
+    /* padding: 9px 20px; */
+    padding-left: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 0px;
+    text-align: left;
+    border: 0;
+    outline: 0;
+    border-radius: 40px;
+    background-color: #fff;
+    font-size: 15px;
+    font-weight: 300;
+    color: #8D8D8D;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    margin-top: 16px;
+}
+
+.form-content select{
+    margin: 0;
+    height: 45px;
+    padding-left: 14.5px;
+    /* padding-bottom: 0; */
+    padding-top: 5px;
+    /* padding-right: 40px; */
+}
+
+
+.form-content input[type=file]{
+    /* height: max-content; */
+    height: 40px;
+    font-size: 16px;
+    /* padding: 0; */
+    padding-left: 14.5px;
+    padding-bottom: 0;
+    padding-top: 8px;
+}
+
+.btn-check:checked+.btn{
+    background-color: #325378;
+}
+
+.btn-primary{
+    background-color: #325378;
+    color: white;
+    outline: none;
+    border: 0px;
+    border-radius: 20px;
+    height: 40px;
+    width: 150px;
+    margin-left: 150px;
+     box-shadow: none;
+     font-weight: bold;
+     letter-spacing: 1px;
+}
+
+.little{
+    /* border: 3px solid black; */
+    margin: 0;
+    /* margin-top: 5px; */
+    margin-bottom: 6px;
+}
+
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active{
+    background-color: #495056;
+    outline: none !important;
+    border: none !important;
+     box-shadow: none;
+}
+
+
+.form-content textarea {
+    /* position: static !important; */
+    /* width: 90%; */
+    width:390px;
+    padding: 8px 20px;
+    border-radius: 6px;
+    text-align: left;
+    background-color: #fff;
+    border: 1px solid grey;
+    font-size: 15px;
+    font-weight: 300;
+    color: #8D8D8D;
+    outline: none;
+    /* resize: none; */
+    height: 120px;
+    -webkit-transition: none;
+    transition: none;
+    margin-bottom: 4px;
+}
+
+.form-content textarea:hover, .form-content textarea:focus {
+    border: 0;
+    background-color: #ebeff8;
+    color: #8D8D8D;
+}
+
+.mv-up{
+    margin-top: -9px !important;
+    margin-bottom: 8px !important;
+}
+
+.invalid-feedback{
+    color: #ff606e;
+}
+
+.valid-feedback{
+   color: #2acc80;
+}
+
+
+
+
+
+
